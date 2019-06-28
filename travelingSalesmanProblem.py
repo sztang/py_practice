@@ -3,26 +3,7 @@
 # The traveling salesman problem v1: brute force method
 # Given a number of cities, incl start point
 # A salesman must calculate the shortest route to go through all cities and return to start
-
-# create class city with two parameters x and y
-# input number of cities
-# generate positions of cities by monte carlo method
-# input x and y info to each city object
-# define distance h as sqrt(x**2 + y**2) by pythagoras
-# select start and end point randomly in set of cities
-
-# create path class with parameters pathList and distance
-
-# define pathIter function
-# 2nd city: iter through every city and calculate dist from start
-# append 2nd city name (concatenate) and dist (sum) to each of n paths
-# 3rd city: iter through every city and calculate dist from last
-# append 3rd city name (concatenate) and dist (sum) to each of n paths
-# 4th city: iter through every city and calculate dist from last
-# append 4th city name (concatenate) and dist (sum) to each of n paths
-# ...
-# nth city: iter through every city and calculate dist from last and dist from start/end
-# append nth city name (concatenate) and dist1 and dist2 (sum) to each of n paths
+# This program generates n cities randomly with x,y coords = [0,1)
 
 import random
 import math
